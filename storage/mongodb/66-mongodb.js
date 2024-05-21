@@ -299,7 +299,7 @@ module.exports = function(RED) {
                                        }
                                      });
                                 }
-                            });
+                            }, { maxTimeMS: 60000, allowDiskUse: true });
                         }
                     });
                 }
