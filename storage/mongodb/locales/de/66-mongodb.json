@@ -16,6 +16,7 @@
             "updateall": "Aktualisiere alle übereinstimmenden Dokumente"
         },
         "operation": {
+            "none": "",
             "save": "Speichern",
             "insert": "Einfügen",
             "update": "Aktualisieren",
@@ -32,6 +33,7 @@
         "tip": "<b>Tipp:</b> Wenn keine Collection vorgegeben ist, muss <code>msg.collection</code> den Collection-Namen enthalten",
         "errors": {
             "nocollection": "Keine Collection angegeben",
+            "nooperation":"No operation defined",
             "missingconfig": "Fehlende MongoDB-Konfiguration"
         }
     }

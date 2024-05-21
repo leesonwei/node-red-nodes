@@ -16,6 +16,7 @@
             "updateall": "Update all matching documents"
         },
         "operation": {
+            "none": "",
             "save": "save",
             "insert": "insert",
             "update": "update",
@@ -32,6 +33,7 @@
         "tip": "<b> Tip:</b> If no collection is set, ensure <code>msg.collection</code> will contain the collection name",
         "errors": {
             "nocollection": "No collection defined",
+            "nooperation":"No operation defined",
             "missingconfig": "missing mongodb configuration"
         }
     }

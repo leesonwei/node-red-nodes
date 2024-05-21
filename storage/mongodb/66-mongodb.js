@@ -102,6 +102,15 @@ module.exports = function(RED) {
                                 return;
                             }
                         }
+                        if (!node.operation) {
+                            if (msg.operation) {
+
+                            }
+                            else {
+                                node.error(RED._("mongodb.errors.nooperation"),msg);
+                                return;
+                            }
+                        }
                         delete msg._topic;
                         delete msg.collection;
                         if (node.operation === "store") {
